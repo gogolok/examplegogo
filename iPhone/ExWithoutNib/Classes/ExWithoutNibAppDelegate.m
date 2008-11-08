@@ -8,9 +8,13 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     NSLog(@"CALL [UIApplicationDelegate::applicationDidFinishLaunching]");
     
+    // !!!: create main window
     window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // !!!: set window background color
     [window setBackgroundColor:[UIColor grayColor]];
     
+    // !!!: hide status bar
     [[UIApplication sharedApplication] setStatusBarHidden:true];
     
     [window makeKeyAndVisible];
