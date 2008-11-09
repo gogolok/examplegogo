@@ -15,7 +15,8 @@
     [window setBackgroundColor:[UIColor grayColor]];
     
     // !!!: hide status bar
-    [[UIApplication sharedApplication] setStatusBarHidden:true];
+    // Info.plist hides already the status bar
+    //[[UIApplication sharedApplication] setStatusBarHidden:true];
     
     [window makeKeyAndVisible];
 }
