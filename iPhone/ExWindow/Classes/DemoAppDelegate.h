@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-@interface ExWithoutNibAppDelegate : NSObject <UIApplicationDelegate> {
+@interface DemoAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
 }
 

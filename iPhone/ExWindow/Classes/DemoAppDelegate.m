@@ -1,6 +1,6 @@
-#import "ExWithoutNibAppDelegate.h"
+#import "DemoAppDelegate.h"
 
-@implementation ExWithoutNibAppDelegate
+@implementation DemoAppDelegate
 
 @synthesize window;
 
