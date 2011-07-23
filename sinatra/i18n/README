@@ -1,0 +1,5 @@
+Sinatra + i18n example
+
+$ gem install bundler
+$ bundle
+$ bundle exec ruby app.rb
