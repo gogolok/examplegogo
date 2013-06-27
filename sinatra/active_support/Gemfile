@@ -1,0 +1,6 @@
+# Gemfile
+source 'https://rubygems.org'
+
+gem 'sinatra', '1.4.3'
+gem 'activesupport', '4.0.0'
+gem 'i18n', '0.6.4'
